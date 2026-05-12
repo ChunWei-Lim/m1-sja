@@ -186,7 +186,7 @@ st.sidebar.header("DuckDB source")
 db_path = st.sidebar.text_input(
     "DuckDB database path",
     #value="SGJobData.duckdb",
-    value="sgJobData-normlised.db",
+    value="sgJobData-normalised.db",
     help="Example: SGJobData.db or db/jobs.duckdb",
 )
 
